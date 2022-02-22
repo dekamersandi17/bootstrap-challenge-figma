@@ -1,0 +1,68 @@
+:root{
+    --main-color:#0D28A6;
+    --second-color:#F1F3FF;
+    --body-color:#FFFFFF;
+    --txt-color:#000000;
+
+    --main-font:'Helvetica';
+    
+    --size-navigation:'14px';
+    --size-banner: '36px';
+    --size-title: '24px';
+    --size-subtitle: '16px';
+    --size-description: '14px';
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--main-font);
+    scroll-behavior: smooth;
+}
+
+/* Ini page Navbar */
+#navigation{
+    background-color: none !important;
+    width: 1168px;
+    height: 36px;
+    color: var(--txt-color);
+}
+
+#navigation #logo{
+    width: 100px;
+    height: 34px;
+    background-color: var(--main-color);
+}
+
+
+/* Ini Page Banner */
+#banner{
+    height: 504px;
+    background-color:red;
+}
+
+/* ini page our service */
+#our-service{
+    height: 504px;
+    background-color:blueviolet;
+}
+
+/* ini page why-us */
+#why-us{
+    height: 504px;
+    background-color:rgb(114, 114, 114);
+}
+
+/*testiomonial*/
+#testimonial{
+    height: 504px;
+    background-color:rgb(114, 114, 114);
+}
+
+/*faq   */
+#faq{
+    height: 504px;
+    background-color: aquamarine;
+}
